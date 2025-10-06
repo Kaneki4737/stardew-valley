@@ -8,7 +8,7 @@ def get_asset_path(*parts):
 
 
 class Inventory:
-    def __init__(self, slot_count=10, slot_size=64):
+    def __init__(self, slot_count=8, slot_size=64):
         self.slot_count = slot_count
         self.slot_size = slot_size
         self.items = [None] * slot_count

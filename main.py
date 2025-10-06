@@ -27,8 +27,8 @@ def main():
     # 8 slots to match inventory_bar.png; enlarge slots for better visibility
     inventory = Inventory(slot_count=8, slot_size=96)
     # Start with seeds but hide numeric counts in UI
-    inventory.add_item("carrot_seed", 1)
-    inventory.add_item("tomato_seed", 1)
+    inventory.add_item("carrot_seed", 5)
+    inventory.add_item("tomato_seed", 5)
     player.inventory = inventory  # Link inventory to player
 
     running = True
